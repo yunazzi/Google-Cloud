@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Services | Google Cloud</title>
+    <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v0d244f667a3683225cca86d0ecf9b9b81b1e734e55a030bdcd3f3094b835c987/cloud/images/favicons/onecloud/favicon.ico">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v0d244f667a3683225cca86d0ecf9b9b81b1e734e55a030bdcd3f3094b835c987/cloud/images/favicons/onecloud/super_cloud.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="./assets/js/index.js" defer></script>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <nav class="navbar">
+                <div class="nav-area">
+                    <h1 class="logo"><a href="">
+                        <!-- <div class="blind">로고</div> -->
+                        <img src="./assets/images/logo.png" alt="로고">
+                    </a></h1>
+                    <div class="nav-wrap">
+                        <div class="nav-left">
+                            <button class="btn-dropdown on">
+                                <div class="nav-item">overview
+                                    <span class="btn-down">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </button>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/retail.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">retail</em>
+                                                <p class="desc">Analytics and collaboration tools for the retail value chain.</p>
+                                            </div>
+                                        
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/cpg.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Consumer Packaged Goods</em>
+                                                <p class="desc">Solutions for CPG digital transformation and brand growth.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/finance.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Financial Services</em>
+                                                <p class="desc">Computing, data management, and analytics tools for financial services.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/hcls.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Healthcare and Life Sciences</em>
+                                                <p class="desc">Advance research at scale and empower healthcare innovation.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/media.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Media and Entertainment</em>
+                                                <p class="desc">Solutions for content production and distribution operations.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/telecommunications.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Telecommunications</em>
+                                                <p class="desc">Hybrid and multi-cloud services to deploy and monetize 5G.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/gaming.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Games</em>
+                                                <p class="desc">AI-driven solutions to build and scale games faster.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/manufacturing.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Manufacturing</em>
+                                                <p class="desc">Migration and AI tools to optimize the manufacturing value chain.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/supply-chain.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Supply Chain and Logistics</em>
+                                                <p class="desc">Enable sustainable, efficient, and resilient data-driven operations across supply chain and logistics operations.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/government.svg" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Government</em>
+                                                <p class="desc">Data storage, AI, and analytics solutions for government agencies.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="">
+                                        <div class="full-onbar">
+                                            <div class="icon">
+                                                <img src="https://www.gstatic.com/cloud/images/navigation/icon-sprite.svg#education" alt>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <em class="title">Education</em>
+                                                <p class="desc">Teaching tools to provide more engaging learning experiences.</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                </ul>
+                            </div>
+
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="">solutions</a></li>
+                                <li class="nav-item"><a href="">products</a></li>
+                                <li class="nav-item"><a href="">pricing</a></li>
+                                <li class="nav-item"><a href="">resources</a></li>
+                                <li class="nav-item"><a href="">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-right">
+                            <div class="right-wrap">
+                                <a href="" class="hover-line">
+                                    <p>Contact sales</p>
+                                    <div class="under-line hide"></div>
+                                </a>
+                                <a href="" class="btn-contact">
+                                    <p>Start free</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+
+
+
+            <section class="sc-visual">
+                <div class="sticky-wrapper">
+
+                    <div class="sticky">
+                        <div class="video">
+                            <video  autoplay="" muted="" playsinline="" loop="">
+                                <source src="./assets/images/Google Cloud_ The new way to cloud.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        
+                        <div class="group-text">
+                            <div class="area1">
+                                <h2 class="text1">
+                                    Cloud with the new. Google Cloud
+                                </h2>
+                                <div class="text2">
+                                    The new way to cloud <br>
+                                    <span class="diff">
+                                        Starts here.
+                                    </span>
+                                </div>
+                                <div class="text3">
+                                    Build with generative AI, deploy apps fast, and analyze data in seconds—all with Google-grade security. Build with the cloud platform designed for developers and AI. Try Google Cloud with free usage of over 20 products, plus new customers get $300 in free credits on signup.
+                                </div>
+                        
+                                <a href="">
+                                    <button class="btn-contact">
+                                        <p>Get started for free</p>
+                                        <div class="arrow">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.6262 5.63604C4.6262 5.08375 5.07391 4.63604 5.6262 4.63604L18.364 4.63604C18.9162 4.63604 19.364 5.08375 19.364 5.63604V18.6875C19.364 19.2398 18.9162 19.6875 18.364 19.6875C17.8117 19.6875 17.364 19.2398 17.364 18.6875V8.05025L6.34314 19.0711C5.95262 19.4616 5.31945 19.4616 4.92893 19.0711C4.5384 18.6805 4.5384 18.0474 4.92893 17.6569L15.9497 6.63604L5.6262 6.63604C5.07391 6.63604 4.6262 6.18832 4.6262 5.63604Z" fill="currentColor" stroke="#currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+            <div data-bg="1">
+                <div class="sc-intro">
+                    <div class="text-wrap">
+                        <div class="title">
+                            Build and scale generative AI apps with
+                            <br>
+                            <span class="font">
+                                Vertex AI and Duet AI
+                            </span>
+                        </div>
+                        <a href="#sc-work" class="btn-select colorChange">
+                            <p>AI innovation happens on Google Cloud</p>
+                            <div class="down arrow">
+                                <svg width="384" height="auto" viewBox="0 0 384 437" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M180.7 400.3C186.9 406.5 197.1 406.5 203.3 400.3L367.531 236.069C373.731 229.869 373.731 219.669 367.531 213.469C361.331 207.269 351.131 207.269 344.931 213.469L208 350.4V49.75C208 40.95 200.8 33.75 192 33.75C183.2 33.75 176 40.95 176 49.75V350.4L57.1809 213.469C50.9809 207.269 40.7809 207.269 34.5809 213.469C28.3809 219.669 28.3809 229.869 34.5809 236.069L180.7 400.3Z" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sc-work" id="sc-work">
+
+                    <div class="area area1">
+                        <div class="wrap">
+                            <div class="video">
+                                <video autoplay muted="muted" loop="loop" playsinline="">
+                                    <source src="./assets/images/video1.mp4" type="video/mp4">
+                                </video>
+
+                                <div class="control-playbtn">
+                                    <button class="btn-play" id="btnPlay">
+
+                                        <svg width="25" height="31" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M36.8433 21.6265L0.698969 0.758592L0.698971 42.4944L36.8433 21.6265Z" fill="white"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <div class="title">LG CNS</div>
+                                <p class="paragraph">
+                                    <em>LG CNS</em> is leveraging <span class="blue-line">AI</span> to improve the capabilities of its executives and employees to help them move to the next level in their digital journey.
+                                </p>
+                                <div class="btn-wrap">
+                                    <a href="" class="gosite">
+                                        <p>Watch the video</p>
+                                        <div class="move-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class="MPvxGc NMm5M hhikbc">
+                                                <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="area area2">
+                        <div class="wrap">
+                            <div class="video">
+                                <video autoplay muted="muted" loop="loop" playsinline="">
+                                    <source src="./assets/images/video2.mp4" type="video/mp4">
+                                </video>
+
+                                <div class="control-playbtn">
+                                    <button class="btn-play" id="btnPlay">
+
+                                        <svg width="25" height="31" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M36.8433 21.6265L0.698969 0.758592L0.698971 42.4944L36.8433 21.6265Z" fill="white"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <div class="title">DOOSAN</div>
+                                <p class="paragraph">
+                                    <em>Doosan</em>
+                                    Heavy Industries & Construction is developing and operating a machine learning-based welding part inspection system with Google's <span class="blue-line">Compute Engine.</span>
+                                </p>
+                                <div class="btn-wrap">
+                                    <a href="" class="gosite">
+                                        <p>Watch the video</p>
+                                        <div class="move-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class="MPvxGc NMm5M hhikbc">
+                                                <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="area area3">
+                        <div class="wrap">
+                            <div class="video">
+                                <video autoplay muted="muted" loop="loop" playsinline="">
+                                    <source src="./assets/images/video3.mp4" type="video/mp4">
+                                </video>
+
+                                <div class="control-playbtn">
+                                    <button class="btn-play" id="btnPlay">
+
+                                        <svg width="25" height="31" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M36.8433 21.6265L0.698969 0.758592L0.698971 42.4944L36.8433 21.6265Z" fill="white"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <div class="title">KIA</div>
+                                <p class="paragraph">
+                                    <em>Kia</em>
+                                    is leveraging its live stream showroom to give customers a better experience and promote new car sales.
+                                </p>
+                                <div class="btn-wrap">
+                                    <a href="" class="gosite">
+                                        <p>Watch the video</p>
+                                        <div class="move-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class="MPvxGc NMm5M hhikbc">
+                                                <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="area area4">
+                        <div class="wrap">
+                            <img src="https://lh3.googleusercontent.com/6MfkyjyiIu8_PnxT_HoDAi3xD92bD5ZxNKle0ilaSfk9zCdwVozeDxsj8NgDmjtKHgrEiOFSrWFL1Q=rw-lo" alt>
+                            <div class="text">
+                                <div class="title">Homeplus</div>
+                                <p class="paragraph">
+                                    <em>Homeplus</em>
+                                    is a <span class="blue-line">BigQuery</span>-based distribution specialized data pipeline that reads consumers' minds and improves quality and distribution industry efficiency.
+                                </p>
+                                <div class="btn-wrap">
+                                    <a href="" class="gosite">
+                                        <p>View best practices</p>
+                                        <div class="move-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" focusable="false" class="MPvxGc NMm5M hhikbc">
+                                                <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="sc-cooperation">
+                <h2 class="headline">
+                    Google Cloud customers
+                </h2>
+
+                <div class="cooper-wrapper">
+                    <div class="logos move-right">
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/3pm-solution_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/kia_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/go-jek_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/daangn_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/loplat_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/doosan_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/buzzvil_2x.png" alt>
+                        </div>
+                    </div>
+                    <div class="logos move-left">
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/vimeo_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/bepro_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/sundaytoz_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/com2us_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/wavve_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/dow-jones_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/skcc_2x.png" alt>
+                        </div>
+                    </div>
+                    <div class="logos move-right">
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/airasia_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/lge_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/nexon_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/king_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/homeplus_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/kakaobrain_2x.png" alt>
+                        </div>
+                        <div class="logo-item">
+                            <img src="https://cloud.google.com/images/customers/directory/marblex_2x.png" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sc-testimonials">
+                <div class="text-wrap">
+                    <h2 class="headline">Cloud computing, ready for business</h2>
+                    <p>Whether you’re migrating or already in the cloud, we’ll help you modernize and digitally transform your business.</p>
+                </div>
+
+                <div class="swiper goodthing-slide">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/EvMv_2VN30ud1dwCKGLoZrFUTwl6nRLBQ2c1zoupIMIzzt85Lr-3jcukfG-XZs4rTAuwkPzbAEQDjQ=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Run and build your apps, anywhere
+                                </div>
+                                <p class="desc">
+                                    Avoid vendor lock-in and speed up development with Google Cloud’s commitment to
+                                    <strong>open source, hybrid, and multicloud.</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/uH6WbABInO4-30P7DzVRLOpooHjV-_Es26VmAMhAJSXKDgcoX1snqvbWs7M5d0mcONqz_gsDBFBL=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Make smarter decisions with the leading data platform
+                                </div>
+                                <p class="desc">
+                                    Give anyone on your team access to business insights with 
+                                    <strong>advanced machine learning and analytics.</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/7jWL49pkXecBKtPeLFcT0of2FNhX9bgfM6HF_4esrtk5ZNfYjauPILovPKni-ym1TYdW5KSOV0eoQQ=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Protect what's important
+                                </div>
+                                <p class="desc">
+                                    Help defend your data and apps 
+                                    <strong>against threats and fraudulent activity</strong> 
+                                    with the same security technology Google uses.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/77339kRXjyuyRpS-J4eI01bzzSCsAs1DAUfY0B0pCzO_muO_Vi0UCHKWaWPRUSuXRMMaIxwgdx0=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Transform how your teams collaborate—from anywhere
+                                </div>
+                                <p class="desc">
+                                    Integrate video calling, email, chat, and document 
+                                    <strong>collaboration</strong> 
+                                    in one place.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/EvMv_2VN30ud1dwCKGLoZrFUTwl6nRLBQ2c1zoupIMIzzt85Lr-3jcukfG-XZs4rTAuwkPzbAEQDjQ=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Run and build your apps, anywhere
+                                </div>
+                                <p class="desc">
+                                    Avoid vendor lock-in and speed up development with Google Cloud’s commitment to
+                                    <strong>open source, hybrid, and multicloud.</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/uH6WbABInO4-30P7DzVRLOpooHjV-_Es26VmAMhAJSXKDgcoX1snqvbWs7M5d0mcONqz_gsDBFBL=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Make smarter decisions with the leading data platform
+                                </div>
+                                <p class="desc">
+                                    Give anyone on your team access to business insights with 
+                                    <strong>advanced machine learning and analytics.</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/7jWL49pkXecBKtPeLFcT0of2FNhX9bgfM6HF_4esrtk5ZNfYjauPILovPKni-ym1TYdW5KSOV0eoQQ=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Protect what's important
+                                </div>
+                                <p class="desc">
+                                    Help defend your data and apps 
+                                    <strong>against threats and fraudulent activity</strong> 
+                                    with the same security technology Google uses.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="business-icon">
+                                <img src="https://lh3.googleusercontent.com/77339kRXjyuyRpS-J4eI01bzzSCsAs1DAUfY0B0pCzO_muO_Vi0UCHKWaWPRUSuXRMMaIxwgdx0=s96-h96-rw-lo" alt>
+                            </div>
+                            <div class="text">
+                                <div class="title">
+                                    Transform how your teams collaborate—from anywhere
+                                </div>
+                                <p class="desc">
+                                    Integrate video calling, email, chat, and document 
+                                    <strong>collaboration</strong> 
+                                    in one place.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pagination"></div>
+                </div>
+            </div>
+
+            <div class="sc-contact">
+                <div class="text-wrap">
+                    <div class="title">
+                        Build and scale your startup with your first year <br>
+                        covered by Google Cloud credits, <br>
+                        plus get support to help your startup grow.
+                    </div>
+                    <a href="" class="btn-select colorChange">
+                        Learn more about startup program
+                    </a>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer class="footer">
+            <div class="addr-area">
+                <div class="box1">
+                    <div class="title">
+                        <span class="font">
+                            Let’s start building
+                        </span>
+                        <br>
+                        your tomorrow, today.
+                    </div>
+                    
+                    <div class="btn-wrap">
+                        <button class="btn-select btn-select1"> Get started for free </button>
+                        <button class="btn-select btn-select2"> Contact sales </button>
+                    </div>
+                </div>
+
+                <div class="box2">
+                    <address class="info-box">
+                        <a href="">
+                            <p>1600 Amphitheatre Parkway Mountain View, CA 94043, USA</p>
+                        </a>
+                        <a href="mailto:googlekrsupport@google.com">
+                            <p>googlekrsupport@google.com</p>
+                        </a>
+                        <p>
+                            Mon - Fri : 8am to 5pm (Weekends Closed)
+                        </p>
+                        <a href="tel:+650-253-0000">
+                            <p>(650) 253-0000</p>
+                        </a>
+                    </address>
+                    
+                    <a href="https://cloud.google.com/sustainability?hl=en">
+                        <div class="img">
+                            <img src="https://www.gstatic.com/cloud/images/footer/sustainabilityleaf.svg" alt>
+                        </div>
+                        <p>Our third decade of climate action: join us</p>
+                    </a>
+                </div>
+            </div>
+            <div class="arc-area">
+                <div class="img-box">
+                    <img src="https://lh3.googleusercontent.com/48L77Uj0C1sqKg06XIBjbL_YWA-g5A8DcEyFuCahmmuU9KcgUoASyfQL5bkJbVSOJVCjQdx_p4o8=e14-rj-sc0xffffff-h924-w924" alt>
+                </div>
+                <div class="inner-box">
+                    <div class="title">Google Cloud</div>
+                        <p class="para">Get updates with the Google Cloud newsletter</p>
+                        <div class="btn-select colorChange">
+                            <a href="">
+                                <p>Subscribe</p>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

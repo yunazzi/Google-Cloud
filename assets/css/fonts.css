@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "Satoshi Variable";
+    src: url(../fonts/Satoshi-Variable.ttf)format('truetype');
+    font-style: normal;
+    /* font-weight: 400; */
+}
+@font-face{
+    font-family: "Satoshi Variable";
+    src: url(../fonts/Satoshi-Variable.woff)format('woff');
+    font-style: normal;
+    /* font-weight: 400; */
+}
+@font-face{
+    font-family: "Satoshi Variable";
+    src: url(../fonts/Satoshi-Variable.woff2)format('woff2');
+    font-style: normal;
+    /* font-weight: 400; */
+}
+
+
+
+@font-face{
+    font-family: "Boska Variable";
+    src: url(../fonts/Boska-Variable.ttf)format('truetype');
+    font-style: normal;
+}
+@font-face{
+    font-family: "Boska Variable";
+    src: url(../fonts/Boska-Variable.woff)format('woff');
+    font-style: normal;
+}
+@font-face{
+    font-family: "Boska Variable";
+    src: url(../fonts/Boska-Variable.woff2)format('woff2');
+    font-style: normal;
+}
+@font-face{
+    font-family: "Boska Variable";
+    src: url(../fonts/Boska-VariableItalic.woff2)format('woff2');
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/googlesans/v58/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvbQoi-Entw.woff2) format('woff2');
+  }
